@@ -93,7 +93,7 @@ def SimpleTuringMachine2(word):
 
 def SimplePushDownAutomaton(word):
     """_A function that emulates a pushdown Automaton with a stak that accepts L an infinite language that
-        is defines as a^nb^n on {a,b} alphabet_
+        is defines as a^nb^n on {a,b} alphabet, empty word rejected_
 
     Args:
         word (_string_): _word to check_
